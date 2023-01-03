@@ -1,12 +1,6 @@
-const robotron = document.querySelector("#robotron")
+const elemento = document.querySelector("#calcular");
+const resultado = document.querySelector(".resultado");
 
-robotron.addEventListener("click", (evento) => {
-    console.log(evento)
+elemento.addEventListener("click", (evento) => {
+  resultado.innerHTML = "Fui clicado"
 })
-
-function dizOi(nome) {
-    console.log("oi " + nome)
-    console.log("Bem-vindo ao Robotron 2000")
-};
-
-dizOi("Pedro")
